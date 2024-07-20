@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
+  background-image: url("video\ and\ audio/black.jpg");
+  color: whitesmoke;
+}
+.unorder {
+  list-style-type: none;
+  padding: 1rem;
+  text-align: right;
+  background-color: black;
+  margin: 0;
+}
+.list {
+  display: inline;
+  margin-inline: 1rem;
+  background-color: rgba(18, 238, 168, 0.925);
+}
+ul .list a {
+  text-decoration: none;
+  border: 4px yellow solid;
+  color: white;
+}
+
+.list a:hover {
+  color: rgb(223, 223, 14);
+}
+
+.pics img {
+  height: 100%;
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+  transform: translateX(-50);
+  transition: bottom;
+  transition: bottom 1s, left 1s;
+}
+
+.pics {
+  width: 70%;
+  height: 70%;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  margin-left: 100px;
+}
+.pics:hover .shape {
+  bottom: 40px;
+}
+.pics:hover .man {
+  top: 45%;
+}
+.h-name {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.div-name {
+  background-color: rgb(255, 198, 95);
+  color: black;
+  width: fit-content;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+.web {
+  color: rgb(8, 8, 181);
+}
+.div-arti p {
+  width: 65%;
+  margin-left: 450px;
+  margin-top: 18%;
+  opacity: 0.8;
+  background-color: rgb(255, 198, 95);
+  color: black;
+  padding-left: 20px;
+  border-radius: 50px;
+  padding: 20px;
+}
+.foo22 {
+  background-color: rgb(255, 198, 95);
+  color: black;
+  margin-top: 33%;
+}
+.foo22 a {
+  text-decoration: none;
+  color: black;
+}
+.foo22 a:hover {
+  color: aqua;
+}
+.sec1 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.sec1 .abt1 {
+  text-align: center;
+}
+.sec2 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 30px;
+  padding: 20px;
+  width: fit-content;
+  margin-right: 20%;
+}
+.sec2 .abt22 {
+  text-align: center;
+}
+
+.sec3 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.sec3 .cer {
+  text-align: center;
+}
+.sec5 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: 60%;
+  margin-top: -20%;
+}
+
+.contact222 {
+  text-align: center;
+}
+.sec5 a {
+  text-decoration: none;
+  color: black;
+}
+.sec5 a:hover {
+  color: blue;
+}
+.sec2 {
+  background-color: rgb(236, 190, 107);
+  width: 50%;
+  color: black;
+  text-align: center;
+  width: fit-content;
+  padding: 30px;
+}
+.sect2 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  text-align: center;
+}
+.sect2 ul {
+  list-style: none;
+}
+.sect2 ul {
+  width: fit-content;
+}
+
+.sect3 {
+  width: fit-content;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  padding-top: -50%;
+  background-color: rgb(236, 190, 107);
+  margin-top: 50px;
+}
+.sect5 h3 {
+}
+.sect5 {
+  width: fit-content;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  padding-top: -50%;
+  background-color: rgb(236, 190, 107);
+  margin-top: -12%;
+}
+.sect4 {
+  width: fit-content;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  padding-top: -50%;
+  background-color: rgb(236, 190, 107);
+  margin-left: 60%;
+  margin-top: -10%;
+}
+.div01 ul li {
+  display: inline;
+}
+.div01 ul {
+  background-color: rgb(236, 190, 107);
+}
+.div01 ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.hd1 {
+  padding-bottom: 15px;
+  padding: 2%;
+  padding-left: 25%;
+  align-content: center;
+}
+.hd1 h1 {
+  background-color: rgb(236, 190, 107);
+  width: 50%;
+  color: black;
+  text-align: center;
+  width: fit-content;
+  padding: 30px;
+}
+.seccc2 {
+  width: fit-content;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  padding-top: -50%;
+}
+.seccc2 h2 {
+  background-color: rgb(236, 190, 107);
+  margin-top: 20px;
+}
+.seccc2 ul li {
+  background-color: rgb(236, 190, 107);
+  list-style: none;
+}
+.seccc1 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 50px;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: 7.5%;
+}
+.seccc1 .arttt1 {
+  align-content: center;
+}
+.seccc3 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 50px;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.seccc3 ul li {
+  list-style: none;
+}
+.seccc4 {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 50px;
+  padding: 50px;
+  margin-top: -80%;
+  margin-left: 38%;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+.seccc4 ul li {
+  list-style: none;
+}
+.div-contact {
+  background-color: rgb(236, 190, 107);
+  color: black;
+  border-radius: 50px;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: fit-content;
+  margin-left: 30%;
+}
